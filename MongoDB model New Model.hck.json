@@ -7,11 +7,12 @@
             "properties": [
                 {
                     "type": "string",
-                    "name": "^[a-zA-Z0-9_.-]+$",
+                    "name": "^[a-zA-Z0-9_s.-]+$",
                     "isActivated": true,
                     "GUID": "750390e0-d692-11ec-99e6-19e970ac2dfa",
                     "sampleName": "",
-                    "isPatternField": true
+                    "isPatternField": true,
+                    "error": {}
                 }
             ],
             "definitions": {
@@ -60,7 +61,7 @@
     "idToNameHashTable": {
         "7264f130-d692-11ec-99e6-19e970ac2dfa": "New_Database",
         "72f3eac0-d692-11ec-99e6-19e970ac2dfa": "New Collection",
-        "750390e0-d692-11ec-99e6-19e970ac2dfa": "^[a-zA-Z0-9_.-]+$"
+        "750390e0-d692-11ec-99e6-19e970ac2dfa": "^[a-zA-Z0-9_s.-]+$"
     },
     "definitions": {
         "type": "definitions",
@@ -85,7 +86,7 @@
     "creationTS": "2022-05-18T10:08:20.139Z",
     "GUID": "719df7b0-d692-11ec-99e6-19e970ac2dfa",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-05-18T10:08:26.944Z",
+    "lastModifTS": "2022-05-18T10:21:48.445Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -94,6 +95,7 @@
     "applicationInformation": {
         "version": "6.0.8"
     },
+    "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
@@ -102,15 +104,15 @@
                         "GUID": "72f3eac0-d692-11ec-99e6-19e970ac2dfa",
                         "x": 369,
                         "y": 358,
-                        "width": 235,
+                        "width": 241,
                         "height": 51,
                         "color": {}
                     }
                 ],
                 "buckets": [
                     {
-                        "x": 310,
-                        "y": 306,
+                        "x": 329,
+                        "y": 318,
                         "GUID": "7264f130-d692-11ec-99e6-19e970ac2dfa"
                     }
                 ],
