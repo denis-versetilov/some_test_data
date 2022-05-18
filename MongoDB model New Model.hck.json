@@ -4,21 +4,11 @@
         {
             "collectionName": "New Collection",
             "type": "object",
-            "properties": [
-                {
-                    "type": "string",
-                    "name": "^[a-zA-Z0-9_s.-]+$",
-                    "isActivated": true,
-                    "GUID": "750390e0-d692-11ec-99e6-19e970ac2dfa",
-                    "sampleName": "",
-                    "isPatternField": true,
-                    "error": {}
-                }
-            ],
+            "properties": [],
             "definitions": {
                 "type": "definitions",
                 "properties": [],
-                "GUID": "72f83080-d692-11ec-99e6-19e970ac2dfa"
+                "GUID": "f9185550-d697-11ec-99e6-19e970ac2dfa"
             },
             "isActivated": true,
             "additionalProperties": false,
@@ -32,61 +22,52 @@
                 "unique": true,
                 "collation": "null"
             },
-            "GUID": "72f3eac0-d692-11ec-99e6-19e970ac2dfa",
-            "bucketId": "7264f130-d692-11ec-99e6-19e970ac2dfa"
+            "GUID": "f9145db0-d697-11ec-99e6-19e970ac2dfa"
         }
     ],
-    "buckets": [
-        {
-            "name": "New_Database",
-            "type": "bucket",
-            "collectionIds": [
-                "72f3eac0-d692-11ec-99e6-19e970ac2dfa"
-            ],
-            "backgroundColor": {
-                "r": 187,
-                "g": 187,
-                "b": 187,
-                "a": 1
-            },
-            "show": true,
-            "isActivated": true,
-            "GUID": "7264f130-d692-11ec-99e6-19e970ac2dfa"
-        }
-    ],
+    "buckets": [],
     "views": [],
-    "relationships": [],
+    "relationships": [
+        {
+            "name": "New Relationship",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "f87b2af0-d697-11ec-99e6-19e970ac2dfa"
+        }
+    ],
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "7264f130-d692-11ec-99e6-19e970ac2dfa": "New_Database",
-        "72f3eac0-d692-11ec-99e6-19e970ac2dfa": "New Collection",
-        "750390e0-d692-11ec-99e6-19e970ac2dfa": "^[a-zA-Z0-9_s.-]+$"
+        "f87b2af0-d697-11ec-99e6-19e970ac2dfa": "New Relationship",
+        "f9145db0-d697-11ec-99e6-19e970ac2dfa": "New Collection"
     },
     "definitions": {
         "type": "definitions",
         "properties": [],
-        "GUID": "719df7b1-d692-11ec-99e6-19e970ac2dfa"
+        "GUID": "f7e357c1-d697-11ec-99e6-19e970ac2dfa"
     },
     "polyglotDefinitions": {
         "type": "polyglotDefinitions",
         "properties": [],
-        "GUID": "719df7b3-d692-11ec-99e6-19e970ac2dfa"
+        "GUID": "f7e357c3-d697-11ec-99e6-19e970ac2dfa"
     },
     "externalDefinitions": {
         "type": "externalDefinitions",
         "properties": [],
-        "GUID": "719df7b2-d692-11ec-99e6-19e970ac2dfa"
+        "GUID": "f7e357c2-d697-11ec-99e6-19e970ac2dfa"
     },
     "sources": [],
     "decorativeSymbols": [],
     "dbVersion": "v5.0",
     "dbVendor": "MongoDB",
     "appTarget": "MONGODB",
-    "creationTS": "2022-05-18T10:08:20.139Z",
-    "GUID": "719df7b0-d692-11ec-99e6-19e970ac2dfa",
+    "creationTS": "2022-05-18T10:47:52.891Z",
+    "GUID": "f7e357c0-d697-11ec-99e6-19e970ac2dfa",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-05-18T10:21:48.445Z",
+    "lastModifTS": "2022-05-18T10:47:55.335Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -95,27 +76,20 @@
     "applicationInformation": {
         "version": "6.0.8"
     },
-    "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
                 "erd": [
                     {
-                        "GUID": "72f3eac0-d692-11ec-99e6-19e970ac2dfa",
-                        "x": 369,
-                        "y": 358,
-                        "width": 241,
-                        "height": 51,
+                        "GUID": "f9145db0-d697-11ec-99e6-19e970ac2dfa",
+                        "x": 375,
+                        "y": 455,
+                        "width": 240,
+                        "height": 100,
                         "color": {}
                     }
                 ],
-                "buckets": [
-                    {
-                        "x": 329,
-                        "y": 318,
-                        "GUID": "7264f130-d692-11ec-99e6-19e970ac2dfa"
-                    }
-                ],
+                "buckets": [],
                 "collapsedNodes": [],
                 "activeRelationship": "",
                 "activeRelationshipFields": {
