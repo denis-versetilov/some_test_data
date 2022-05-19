@@ -1,0 +1,121 @@
+{
+    "modelName": "New Model",
+    "collections": [
+        {
+            "collectionName": "New Collection",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "f9185550-d697-11ec-99e6-19e970ac2dfa"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "f9145db0-d697-11ec-99e6-19e970ac2dfa"
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [
+        {
+            "name": "New Relationship",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "f87b2af0-d697-11ec-99e6-19e970ac2dfa"
+        }
+    ],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "f87b2af0-d697-11ec-99e6-19e970ac2dfa": "New Relationship",
+        "f9145db0-d697-11ec-99e6-19e970ac2dfa": "New Collection"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "f7e357c1-d697-11ec-99e6-19e970ac2dfa"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "f7e357c3-d697-11ec-99e6-19e970ac2dfa"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "f7e357c2-d697-11ec-99e6-19e970ac2dfa"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "v5.0",
+    "dbVendor": "MongoDB",
+    "appTarget": "MONGODB",
+    "creationTS": "2022-05-18T10:47:52.891Z",
+    "GUID": "f7e357c0-d697-11ec-99e6-19e970ac2dfa",
+    "isLineageEnabled": false,
+    "lastModifTS": "2022-05-18T10:47:55.335Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.0.8"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "f9145db0-d697-11ec-99e6-19e970ac2dfa",
+                        "x": 375,
+                        "y": 455,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    }
+                ],
+                "buckets": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": []
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}
