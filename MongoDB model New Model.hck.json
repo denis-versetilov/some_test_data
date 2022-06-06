@@ -1,11 +1,38 @@
 {
     "modelName": "New Model",
-    "collections": [],
+    "collections": [
+        {
+            "collectionName": "New Collection",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "0fe259f0-e58b-11ec-b2ad-2d11faaf163a"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "0fdd9f00-e58b-11ec-b2ad-2d11faaf163a",
+            "bucketId": "01631610-d688-11ec-b108-e15639c2584f"
+        }
+    ],
     "buckets": [
         {
             "name": "New_Database",
             "type": "bucket",
-            "collectionIds": [],
+            "collectionIds": [
+                "0fdd9f00-e58b-11ec-b2ad-2d11faaf163a"
+            ],
             "backgroundColor": {
                 "r": 187,
                 "g": 187,
@@ -33,7 +60,8 @@
     "diagramViews": [],
     "idToNameHashTable": {
         "00a607a0-d688-11ec-b108-e15639c2584f": "New Relationship",
-        "01631610-d688-11ec-b108-e15639c2584f": "New_Database"
+        "01631610-d688-11ec-b108-e15639c2584f": "New_Database",
+        "0fdd9f00-e58b-11ec-b2ad-2d11faaf163a": "New Collection"
     },
     "definitions": {
         "type": "definitions",
@@ -58,19 +86,29 @@
     "creationTS": "2022-05-18T08:53:33.874Z",
     "GUID": "ff986830-d687-11ec-b108-e15639c2584f",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-05-18T08:53:38.008Z",
+    "lastModifTS": "2022-06-06T11:23:17.914Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.0.8"
+        "version": "6.1.2"
     },
+    "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
-                "erd": [],
+                "erd": [
+                    {
+                        "GUID": "0fdd9f00-e58b-11ec-b2ad-2d11faaf163a",
+                        "x": 288,
+                        "y": 334,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    }
+                ],
                 "buckets": [
                     {
                         "x": 199,
