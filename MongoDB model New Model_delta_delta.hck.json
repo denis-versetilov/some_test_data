@@ -1,0 +1,620 @@
+{
+    "modelName": "New Model",
+    "collections": [
+        {
+            "collectionName": "comparisonModelCollection",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "containers",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "document",
+                    "properties": [
+                        {
+                            "name": "added",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "GUID": "66fae711-e5a0-11ec-b2ad-2d11faaf163a"
+                        },
+                        {
+                            "name": "deleted",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "GUID": "66fae713-e5a0-11ec-b2ad-2d11faaf163a"
+                        },
+                        {
+                            "name": "modified",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "GUID": "66fae715-e5a0-11ec-b2ad-2d11faaf163a"
+                        }
+                    ],
+                    "additionalProperties": false,
+                    "GUID": "66fac002-e5a0-11ec-b2ad-2d11faaf163a"
+                },
+                {
+                    "name": "entities",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "document",
+                    "properties": [
+                        {
+                            "name": "added",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [
+                                {
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "document",
+                                    "properties": [
+                                        {
+                                            "name": "comparisonModelCollection",
+                                            "hackoladeMeta": {},
+                                            "isActivated": true,
+                                            "type": "document",
+                                            "properties": [
+                                                {
+                                                    "name": "containers",
+                                                    "hackoladeMeta": {},
+                                                    "isActivated": true,
+                                                    "type": "document",
+                                                    "properties": [
+                                                        {
+                                                            "name": "added",
+                                                            "hackoladeMeta": {},
+                                                            "isActivated": true,
+                                                            "type": "array",
+                                                            "properties": [
+                                                                {
+                                                                    "hackoladeMeta": {},
+                                                                    "isActivated": true,
+                                                                    "type": "document",
+                                                                    "properties": [
+                                                                        {
+                                                                            "name": "New_Database",
+                                                                            "hackoladeMeta": {},
+                                                                            "isActivated": true,
+                                                                            "type": "document",
+                                                                            "properties": [],
+                                                                            "additionalProperties": false,
+                                                                            "GUID": "b6995087-d688-11ec-b108-e15639c2584f",
+                                                                            "role": {
+                                                                                "name": "New_Database",
+                                                                                "type": "bucket",
+                                                                                "collectionIds": [],
+                                                                                "backgroundColor": {
+                                                                                    "r": 187,
+                                                                                    "g": 187,
+                                                                                    "b": 187,
+                                                                                    "a": 1
+                                                                                },
+                                                                                "show": true,
+                                                                                "isActivated": true,
+                                                                                "GUID": "01631610-d688-11ec-b108-e15639c2584f",
+                                                                                "roleType": "container"
+                                                                            }
+                                                                        }
+                                                                    ],
+                                                                    "additionalProperties": false,
+                                                                    "GUID": "b6995086-d688-11ec-b108-e15639c2584f",
+                                                                    "arrayItem": true
+                                                                }
+                                                            ],
+                                                            "additionalItems": true,
+                                                            "GUID": "b6995081-d688-11ec-b108-e15639c2584f"
+                                                        },
+                                                        {
+                                                            "name": "deleted",
+                                                            "hackoladeMeta": {},
+                                                            "isActivated": true,
+                                                            "type": "array",
+                                                            "properties": [],
+                                                            "additionalItems": true,
+                                                            "GUID": "b6995083-d688-11ec-b108-e15639c2584f"
+                                                        },
+                                                        {
+                                                            "name": "modified",
+                                                            "hackoladeMeta": {},
+                                                            "isActivated": true,
+                                                            "type": "array",
+                                                            "properties": [],
+                                                            "additionalItems": true,
+                                                            "GUID": "b6995085-d688-11ec-b108-e15639c2584f"
+                                                        }
+                                                    ],
+                                                    "additionalProperties": false,
+                                                    "GUID": "b6992971-d688-11ec-b108-e15639c2584f"
+                                                },
+                                                {
+                                                    "name": "entities",
+                                                    "hackoladeMeta": {},
+                                                    "isActivated": true,
+                                                    "type": "document",
+                                                    "properties": [
+                                                        {
+                                                            "name": "added",
+                                                            "hackoladeMeta": {},
+                                                            "isActivated": true,
+                                                            "type": "array",
+                                                            "properties": [],
+                                                            "additionalItems": true,
+                                                            "GUID": "b6997791-d688-11ec-b108-e15639c2584f"
+                                                        },
+                                                        {
+                                                            "name": "deleted",
+                                                            "hackoladeMeta": {},
+                                                            "isActivated": true,
+                                                            "type": "array",
+                                                            "properties": [],
+                                                            "additionalItems": true,
+                                                            "GUID": "b6997793-d688-11ec-b108-e15639c2584f"
+                                                        },
+                                                        {
+                                                            "name": "modified",
+                                                            "hackoladeMeta": {},
+                                                            "isActivated": true,
+                                                            "type": "array",
+                                                            "properties": [],
+                                                            "additionalItems": true,
+                                                            "GUID": "b6997795-d688-11ec-b108-e15639c2584f"
+                                                        }
+                                                    ],
+                                                    "additionalProperties": false,
+                                                    "GUID": "b6992973-d688-11ec-b108-e15639c2584f"
+                                                },
+                                                {
+                                                    "name": "relationships",
+                                                    "hackoladeMeta": {},
+                                                    "isActivated": true,
+                                                    "type": "document",
+                                                    "properties": [
+                                                        {
+                                                            "name": "added",
+                                                            "hackoladeMeta": {},
+                                                            "isActivated": true,
+                                                            "type": "array",
+                                                            "properties": [
+                                                                {
+                                                                    "hackoladeMeta": {},
+                                                                    "isActivated": true,
+                                                                    "type": "document",
+                                                                    "properties": [
+                                                                        {
+                                                                            "name": "New Relationship",
+                                                                            "hackoladeMeta": {},
+                                                                            "isActivated": true,
+                                                                            "type": "document",
+                                                                            "properties": [],
+                                                                            "additionalProperties": false,
+                                                                            "GUID": "b699779d-d688-11ec-b108-e15639c2584f",
+                                                                            "role": {
+                                                                                "name": "New Relationship",
+                                                                                "relationshipType": "",
+                                                                                "parentField": [],
+                                                                                "parentCardinality": "1",
+                                                                                "childField": [],
+                                                                                "childCardinality": "1",
+                                                                                "GUID": "00a607a0-d688-11ec-b108-e15639c2584f",
+                                                                                "roleType": "relationship"
+                                                                            }
+                                                                        }
+                                                                    ],
+                                                                    "additionalProperties": false,
+                                                                    "GUID": "b699779c-d688-11ec-b108-e15639c2584f",
+                                                                    "arrayItem": true
+                                                                }
+                                                            ],
+                                                            "additionalItems": true,
+                                                            "GUID": "b6997797-d688-11ec-b108-e15639c2584f"
+                                                        },
+                                                        {
+                                                            "name": "deleted",
+                                                            "hackoladeMeta": {},
+                                                            "isActivated": true,
+                                                            "type": "array",
+                                                            "properties": [],
+                                                            "additionalItems": true,
+                                                            "GUID": "b6997799-d688-11ec-b108-e15639c2584f"
+                                                        },
+                                                        {
+                                                            "name": "modified",
+                                                            "hackoladeMeta": {},
+                                                            "isActivated": true,
+                                                            "type": "array",
+                                                            "properties": [],
+                                                            "additionalItems": true,
+                                                            "GUID": "b699779b-d688-11ec-b108-e15639c2584f"
+                                                        }
+                                                    ],
+                                                    "additionalProperties": false,
+                                                    "GUID": "b6992975-d688-11ec-b108-e15639c2584f"
+                                                },
+                                                {
+                                                    "name": "views",
+                                                    "hackoladeMeta": {},
+                                                    "isActivated": true,
+                                                    "type": "document",
+                                                    "properties": [
+                                                        {
+                                                            "name": "added",
+                                                            "hackoladeMeta": {},
+                                                            "isActivated": true,
+                                                            "type": "array",
+                                                            "properties": [],
+                                                            "additionalItems": true,
+                                                            "GUID": "b6999ea1-d688-11ec-b108-e15639c2584f"
+                                                        },
+                                                        {
+                                                            "name": "deleted",
+                                                            "hackoladeMeta": {},
+                                                            "isActivated": true,
+                                                            "type": "array",
+                                                            "properties": [],
+                                                            "additionalItems": true,
+                                                            "GUID": "b6999ea3-d688-11ec-b108-e15639c2584f"
+                                                        },
+                                                        {
+                                                            "name": "modified",
+                                                            "hackoladeMeta": {},
+                                                            "isActivated": true,
+                                                            "type": "array",
+                                                            "properties": [],
+                                                            "additionalItems": true,
+                                                            "GUID": "b6999ea5-d688-11ec-b108-e15639c2584f"
+                                                        }
+                                                    ],
+                                                    "additionalProperties": false,
+                                                    "GUID": "b6992977-d688-11ec-b108-e15639c2584f"
+                                                },
+                                                {
+                                                    "name": "modelDefinitions",
+                                                    "hackoladeMeta": {},
+                                                    "isActivated": true,
+                                                    "type": "document",
+                                                    "properties": [
+                                                        {
+                                                            "name": "added",
+                                                            "hackoladeMeta": {},
+                                                            "isActivated": true,
+                                                            "type": "array",
+                                                            "properties": [],
+                                                            "additionalItems": true,
+                                                            "GUID": "b6a1b4f1-d688-11ec-b108-e15639c2584f"
+                                                        },
+                                                        {
+                                                            "name": "deleted",
+                                                            "hackoladeMeta": {},
+                                                            "isActivated": true,
+                                                            "type": "array",
+                                                            "properties": [],
+                                                            "additionalItems": true,
+                                                            "GUID": "b6a1b4f3-d688-11ec-b108-e15639c2584f"
+                                                        },
+                                                        {
+                                                            "name": "modified",
+                                                            "hackoladeMeta": {},
+                                                            "isActivated": true,
+                                                            "type": "array",
+                                                            "properties": [],
+                                                            "additionalItems": true,
+                                                            "GUID": "b6a1b4f5-d688-11ec-b108-e15639c2584f"
+                                                        }
+                                                    ],
+                                                    "additionalProperties": false,
+                                                    "GUID": "b6992979-d688-11ec-b108-e15639c2584f"
+                                                }
+                                            ],
+                                            "additionalProperties": false,
+                                            "GUID": "66fb0e21-e5a0-11ec-b2ad-2d11faaf163a",
+                                            "compMod": {
+                                                "created": true,
+                                                "deleted": false
+                                            },
+                                            "role": {
+                                                "collectionName": "comparisonModelCollection",
+                                                "type": "object",
+                                                "isActivated": true,
+                                                "additionalProperties": false,
+                                                "validationLevel": "Off",
+                                                "validationAction": "Warn",
+                                                "storageEngineName": "WiredTiger",
+                                                "collectionUsers": [],
+                                                "indexes": [],
+                                                "collation": {},
+                                                "sharding": {
+                                                    "unique": true,
+                                                    "collation": "null"
+                                                },
+                                                "GUID": "b6990264-d688-11ec-b108-e15639c2584f",
+                                                "compMod": {
+                                                    "created": true,
+                                                    "deleted": false
+                                                },
+                                                "name": "comparisonModelCollection",
+                                                "roleType": "entity"
+                                            }
+                                        }
+                                    ],
+                                    "additionalProperties": false,
+                                    "GUID": "66fb0e20-e5a0-11ec-b2ad-2d11faaf163a",
+                                    "arrayItem": true
+                                }
+                            ],
+                            "additionalItems": true,
+                            "GUID": "66fae717-e5a0-11ec-b2ad-2d11faaf163a"
+                        },
+                        {
+                            "name": "deleted",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "GUID": "66fae719-e5a0-11ec-b2ad-2d11faaf163a"
+                        },
+                        {
+                            "name": "modified",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "GUID": "66fae71b-e5a0-11ec-b2ad-2d11faaf163a"
+                        }
+                    ],
+                    "additionalProperties": false,
+                    "GUID": "66fac004-e5a0-11ec-b2ad-2d11faaf163a"
+                },
+                {
+                    "name": "relationships",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "document",
+                    "properties": [
+                        {
+                            "name": "added",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "GUID": "66fb0e23-e5a0-11ec-b2ad-2d11faaf163a"
+                        },
+                        {
+                            "name": "deleted",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "GUID": "66fb0e25-e5a0-11ec-b2ad-2d11faaf163a"
+                        },
+                        {
+                            "name": "modified",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "GUID": "66fb0e27-e5a0-11ec-b2ad-2d11faaf163a"
+                        }
+                    ],
+                    "additionalProperties": false,
+                    "GUID": "66fac006-e5a0-11ec-b2ad-2d11faaf163a"
+                },
+                {
+                    "name": "views",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "document",
+                    "properties": [
+                        {
+                            "name": "added",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "GUID": "66fb3531-e5a0-11ec-b2ad-2d11faaf163a"
+                        },
+                        {
+                            "name": "deleted",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "GUID": "66fb3533-e5a0-11ec-b2ad-2d11faaf163a"
+                        },
+                        {
+                            "name": "modified",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "GUID": "66fb3535-e5a0-11ec-b2ad-2d11faaf163a"
+                        }
+                    ],
+                    "additionalProperties": false,
+                    "GUID": "66fac008-e5a0-11ec-b2ad-2d11faaf163a"
+                },
+                {
+                    "name": "modelDefinitions",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "document",
+                    "properties": [
+                        {
+                            "name": "added",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "GUID": "670399a1-e5a0-11ec-b2ad-2d11faaf163a"
+                        },
+                        {
+                            "name": "deleted",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "GUID": "670399a3-e5a0-11ec-b2ad-2d11faaf163a"
+                        },
+                        {
+                            "name": "modified",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "GUID": "670399a5-e5a0-11ec-b2ad-2d11faaf163a"
+                        }
+                    ],
+                    "additionalProperties": false,
+                    "GUID": "66fac00a-e5a0-11ec-b2ad-2d11faaf163a"
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "66fac000-e5a0-11ec-b2ad-2d11faaf163a"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "66fa98f4-e5a0-11ec-b2ad-2d11faaf163a"
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "66fae711-e5a0-11ec-b2ad-2d11faaf163a": "added",
+        "66fae713-e5a0-11ec-b2ad-2d11faaf163a": "deleted",
+        "66fae715-e5a0-11ec-b2ad-2d11faaf163a": "modified",
+        "66fae717-e5a0-11ec-b2ad-2d11faaf163a": "added",
+        "66fae719-e5a0-11ec-b2ad-2d11faaf163a": "deleted",
+        "66fae71b-e5a0-11ec-b2ad-2d11faaf163a": "modified",
+        "b6990264-d688-11ec-b108-e15639c2584f": "comparisonModelCollection",
+        "66fb0e21-e5a0-11ec-b2ad-2d11faaf163a": "comparisonModelCollection",
+        "66fb0e23-e5a0-11ec-b2ad-2d11faaf163a": "added",
+        "66fb0e25-e5a0-11ec-b2ad-2d11faaf163a": "deleted",
+        "66fb0e27-e5a0-11ec-b2ad-2d11faaf163a": "modified",
+        "66fb3531-e5a0-11ec-b2ad-2d11faaf163a": "added",
+        "66fb3533-e5a0-11ec-b2ad-2d11faaf163a": "deleted",
+        "66fb3535-e5a0-11ec-b2ad-2d11faaf163a": "modified",
+        "670399a1-e5a0-11ec-b2ad-2d11faaf163a": "added",
+        "670399a3-e5a0-11ec-b2ad-2d11faaf163a": "deleted",
+        "670399a5-e5a0-11ec-b2ad-2d11faaf163a": "modified",
+        "66fa98f4-e5a0-11ec-b2ad-2d11faaf163a": "comparisonModelCollection",
+        "66fac002-e5a0-11ec-b2ad-2d11faaf163a": "containers",
+        "66fac004-e5a0-11ec-b2ad-2d11faaf163a": "entities",
+        "66fac006-e5a0-11ec-b2ad-2d11faaf163a": "relationships",
+        "66fac008-e5a0-11ec-b2ad-2d11faaf163a": "views",
+        "66fac00a-e5a0-11ec-b2ad-2d11faaf163a": "modelDefinitions"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "ff986831-d687-11ec-b108-e15639c2584f"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "66fa98f3-e5a0-11ec-b2ad-2d11faaf163a"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "ff986832-d687-11ec-b108-e15639c2584f"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "v5.0",
+    "dbVendor": "MongoDB",
+    "appTarget": "MONGODB",
+    "creationTS": "2022-06-06T13:56:02.687Z",
+    "GUID": "66fa98f0-e5a0-11ec-b2ad-2d11faaf163a",
+    "compMode": true,
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginEngineVersion": "1.0.0"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "66fa98f4-e5a0-11ec-b2ad-2d11faaf163a",
+                        "x": 50,
+                        "y": 50,
+                        "width": 322,
+                        "height": 857,
+                        "color": {}
+                    }
+                ],
+                "buckets": [
+                    {
+                        "GUID": ""
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": []
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    },
+    "lastModifTS": "2022-06-06T13:56:06.698Z",
+    "persistenceSchemaVersion": "6",
+    "applicationInformation": {
+        "version": "6.1.2"
+    }
+}
