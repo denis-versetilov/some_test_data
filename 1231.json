@@ -6,7 +6,7 @@
             "type": "object",
             "properties": [
                 {
-                    "name": "New Field",
+                    "name": "New F",
                     "hackoladeMeta": {},
                     "isActivated": true,
                     "type": "string",
@@ -63,7 +63,7 @@
     "idToNameHashTable": {
         "8e1fa660-e586-11ec-b2ad-2d11faaf163a": "New_Database",
         "8ebfde00-e586-11ec-b2ad-2d11faaf163a": "New Collection",
-        "903f2b00-e586-11ec-b2ad-2d11faaf163a": "New Field"
+        "903f2b00-e586-11ec-b2ad-2d11faaf163a": "New F"
     },
     "definitions": {
         "type": "definitions",
@@ -88,7 +88,7 @@
     "creationTS": "2022-06-06T10:51:00.047Z",
     "GUID": "8d4a5500-e586-11ec-b2ad-2d11faaf163a",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-06-06T10:51:12.170Z",
+    "lastModifTS": "2022-06-08T09:18:32.846Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -97,6 +97,7 @@
     "applicationInformation": {
         "version": "6.1.2"
     },
+    "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
@@ -113,7 +114,7 @@
                 "buckets": [
                     {
                         "x": 400,
-                        "y": 304,
+                        "y": 301,
                         "GUID": "8e1fa660-e586-11ec-b2ad-2d11faaf163a"
                     }
                 ],

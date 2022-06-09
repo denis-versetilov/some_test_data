@@ -8,7 +8,7 @@
             "definitions": {
                 "type": "definitions",
                 "properties": [],
-                "GUID": "2a8b7480-e58b-11ec-b2ad-2d11faaf163a"
+                "GUID": "0009aa60-e70c-11ec-b09c-cd873d2415fa"
             },
             "isActivated": true,
             "additionalProperties": false,
@@ -22,17 +22,15 @@
                 "unique": true,
                 "collation": "null"
             },
-            "GUID": "2a86b990-e58b-11ec-b2ad-2d11faaf163a",
-            "bucketId": "01631610-d688-11ec-b108-e15639c2584f"
+            "GUID": "00053d90-e70c-11ec-b09c-cd873d2415fa",
+            "bucketId": "ff138a90-e70b-11ec-b09c-cd873d2415fa"
         }
     ],
     "buckets": [
         {
             "name": "New_Database",
             "type": "bucket",
-            "collectionIds": [
-                "2a86b990-e58b-11ec-b2ad-2d11faaf163a"
-            ],
+            "collectionIds": [],
             "backgroundColor": {
                 "r": 187,
                 "g": 187,
@@ -41,52 +39,58 @@
             },
             "show": true,
             "isActivated": true,
-            "GUID": "01631610-d688-11ec-b108-e15639c2584f"
+            "GUID": "feb8c060-e70b-11ec-b09c-cd873d2415fa"
+        },
+        {
+            "name": "New_Database(1)",
+            "type": "bucket",
+            "collectionIds": [
+                "00053d90-e70c-11ec-b09c-cd873d2415fa"
+            ],
+            "backgroundColor": {
+                "r": 119,
+                "g": 119,
+                "b": 119,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "GUID": "ff138a90-e70b-11ec-b09c-cd873d2415fa"
         }
     ],
     "views": [],
-    "relationships": [
-        {
-            "name": "New Relationship",
-            "relationshipType": "",
-            "parentField": [],
-            "parentCardinality": "1",
-            "childField": [],
-            "childCardinality": "1",
-            "GUID": "00a607a0-d688-11ec-b108-e15639c2584f"
-        }
-    ],
+    "relationships": [],
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "00a607a0-d688-11ec-b108-e15639c2584f": "New Relationship",
-        "01631610-d688-11ec-b108-e15639c2584f": "New_Database",
-        "2a86b990-e58b-11ec-b2ad-2d11faaf163a": "New Collection"
+        "feb8c060-e70b-11ec-b09c-cd873d2415fa": "New_Database",
+        "ff138a90-e70b-11ec-b09c-cd873d2415fa": "New_Database(1)",
+        "00053d90-e70c-11ec-b09c-cd873d2415fa": "New Collection"
     },
     "definitions": {
         "type": "definitions",
         "properties": [],
-        "GUID": "ff986831-d687-11ec-b108-e15639c2584f"
+        "GUID": "fe1bbd11-e70b-11ec-b09c-cd873d2415fa"
     },
     "polyglotDefinitions": {
         "type": "polyglotDefinitions",
         "properties": [],
-        "GUID": "ff986833-d687-11ec-b108-e15639c2584f"
+        "GUID": "fe1bbd13-e70b-11ec-b09c-cd873d2415fa"
     },
     "externalDefinitions": {
         "type": "externalDefinitions",
         "properties": [],
-        "GUID": "ff986832-d687-11ec-b108-e15639c2584f"
+        "GUID": "fe1bbd12-e70b-11ec-b09c-cd873d2415fa"
     },
     "sources": [],
     "decorativeSymbols": [],
     "dbVersion": "v5.0",
     "dbVendor": "MongoDB",
     "appTarget": "MONGODB",
-    "creationTS": "2022-05-18T08:53:33.874Z",
-    "GUID": "ff986830-d687-11ec-b108-e15639c2584f",
+    "creationTS": "2022-06-08T09:18:43.553Z",
+    "GUID": "fe1bbd10-e70b-11ec-b09c-cd873d2415fa",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-06-07T12:03:29.948Z",
+    "lastModifTS": "2022-06-08T09:18:47.386Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -95,25 +99,29 @@
     "applicationInformation": {
         "version": "6.1.2"
     },
-    "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
                 "erd": [
                     {
-                        "GUID": "2a86b990-e58b-11ec-b2ad-2d11faaf163a",
-                        "x": 353,
-                        "y": 346,
-                        "width": 206,
-                        "height": 33,
+                        "GUID": "00053d90-e70c-11ec-b09c-cd873d2415fa",
+                        "x": 525,
+                        "y": 445,
+                        "width": 240,
+                        "height": 100,
                         "color": {}
                     }
                 ],
                 "buckets": [
                     {
-                        "x": 313,
-                        "y": 306,
-                        "GUID": "01631610-d688-11ec-b108-e15639c2584f"
+                        "x": 433,
+                        "y": 358,
+                        "GUID": "feb8c060-e70b-11ec-b09c-cd873d2415fa"
+                    },
+                    {
+                        "x": 468,
+                        "y": 412,
+                        "GUID": "ff138a90-e70b-11ec-b09c-cd873d2415fa"
                     }
                 ],
                 "collapsedNodes": [],
