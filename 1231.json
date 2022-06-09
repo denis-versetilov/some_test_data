@@ -31,6 +31,7 @@
             "name": "New_Database",
             "type": "bucket",
             "collectionIds": [
+                "8ebfde00-e586-11ec-b2ad-2d11faaf163a",
                 "8ebfde00-e586-11ec-b2ad-2d11faaf163a"
             ],
             "backgroundColor": {
@@ -75,7 +76,7 @@
     "creationTS": "2022-06-06T10:51:00.047Z",
     "GUID": "8d4a5500-e586-11ec-b2ad-2d11faaf163a",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-06-07T11:57:26.425Z",
+    "lastModifTS": "2022-06-09T12:13:53.219Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
