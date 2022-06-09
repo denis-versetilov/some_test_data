@@ -6,7 +6,7 @@
             "type": "object",
             "properties": [
                 {
-                    "name": "New ",
+                    "name": "New edition",
                     "hackoladeMeta": {},
                     "isActivated": true,
                     "type": "string",
@@ -64,7 +64,7 @@
     "idToNameHashTable": {
         "8e1fa660-e586-11ec-b2ad-2d11faaf163a": "New_Database",
         "8ebfde00-e586-11ec-b2ad-2d11faaf163a": "New Collection",
-        "903f2b00-e586-11ec-b2ad-2d11faaf163a": "New "
+        "903f2b00-e586-11ec-b2ad-2d11faaf163a": "New edition"
     },
     "definitions": {
         "type": "definitions",
@@ -89,7 +89,7 @@
     "creationTS": "2022-06-06T10:51:00.047Z",
     "GUID": "8d4a5500-e586-11ec-b2ad-2d11faaf163a",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-06-09T11:57:11.307Z",
+    "lastModifTS": "2022-06-09T12:14:09.891Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
