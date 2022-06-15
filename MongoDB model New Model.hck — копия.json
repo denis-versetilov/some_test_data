@@ -8,7 +8,7 @@
             "definitions": {
                 "type": "definitions",
                 "properties": [],
-                "GUID": "8ec423c0-e586-11ec-b2ad-2d11faaf163a"
+                "GUID": "0fe259f0-e58b-11ec-b2ad-2d11faaf163a"
             },
             "isActivated": true,
             "additionalProperties": false,
@@ -22,8 +22,8 @@
                 "unique": true,
                 "collation": "null"
             },
-            "GUID": "8ebfde00-e586-11ec-b2ad-2d11faaf163a",
-            "bucketId": "8e1fa660-e586-11ec-b2ad-2d11faaf163a"
+            "GUID": "0fdd9f00-e58b-11ec-b2ad-2d11faaf163a",
+            "bucketId": "01631610-d688-11ec-b108-e15639c2584f"
         }
     ],
     "buckets": [
@@ -31,7 +31,7 @@
             "name": "New_Database",
             "type": "bucket",
             "collectionIds": [
-                "8ebfde00-e586-11ec-b2ad-2d11faaf163a"
+                "0fdd9f00-e58b-11ec-b2ad-2d11faaf163a"
             ],
             "backgroundColor": {
                 "r": 187,
@@ -41,48 +41,59 @@
             },
             "show": true,
             "isActivated": true,
-            "GUID": "8e1fa660-e586-11ec-b2ad-2d11faaf163a"
+            "GUID": "01631610-d688-11ec-b108-e15639c2584f"
         }
     ],
     "views": [],
-    "relationships": [],
+    "relationships": [
+        {
+            "name": "New Relationship",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "00a607a0-d688-11ec-b108-e15639c2584f"
+        }
+    ],
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "8e1fa660-e586-11ec-b2ad-2d11faaf163a": "New_Database",
-        "8ebfde00-e586-11ec-b2ad-2d11faaf163a": "New Collection"
+        "00a607a0-d688-11ec-b108-e15639c2584f": "New Relationship",
+        "01631610-d688-11ec-b108-e15639c2584f": "New_Database",
+        "0fdd9f00-e58b-11ec-b2ad-2d11faaf163a": "New Collection"
     },
     "definitions": {
         "type": "definitions",
         "properties": [],
-        "GUID": "8d4a5501-e586-11ec-b2ad-2d11faaf163a"
+        "GUID": "ff986831-d687-11ec-b108-e15639c2584f"
     },
     "polyglotDefinitions": {
         "type": "polyglotDefinitions",
         "properties": [],
-        "GUID": "8d4a5503-e586-11ec-b2ad-2d11faaf163a"
+        "GUID": "ff986833-d687-11ec-b108-e15639c2584f"
     },
     "externalDefinitions": {
         "type": "externalDefinitions",
         "properties": [],
-        "GUID": "8d4a5502-e586-11ec-b2ad-2d11faaf163a"
+        "GUID": "ff986832-d687-11ec-b108-e15639c2584f"
     },
     "sources": [],
     "decorativeSymbols": [],
     "dbVersion": "v5.0",
     "dbVendor": "MongoDB",
     "appTarget": "MONGODB",
-    "creationTS": "2022-06-06T10:51:00.047Z",
-    "GUID": "8d4a5500-e586-11ec-b2ad-2d11faaf163a",
+    "creationTS": "2022-05-18T08:53:33.874Z",
+    "GUID": "ff986830-d687-11ec-b108-e15639c2584f",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-06-15T06:02:43.290Z",
+    "lastModifTS": "2022-06-06T11:23:17.914Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.1.3"
+        "version": "6.1.2"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -90,19 +101,19 @@
             "dbLevel": {
                 "erd": [
                     {
-                        "GUID": "8ebfde00-e586-11ec-b2ad-2d11faaf163a",
-                        "x": 440,
-                        "y": 341,
-                        "width": 206,
-                        "height": 33,
+                        "GUID": "0fdd9f00-e58b-11ec-b2ad-2d11faaf163a",
+                        "x": 288,
+                        "y": 334,
+                        "width": 240,
+                        "height": 100,
                         "color": {}
                     }
                 ],
                 "buckets": [
                     {
-                        "x": 400,
-                        "y": 301,
-                        "GUID": "8e1fa660-e586-11ec-b2ad-2d11faaf163a"
+                        "x": 199,
+                        "y": 243,
+                        "GUID": "01631610-d688-11ec-b108-e15639c2584f"
                     }
                 ],
                 "collapsedNodes": [],
