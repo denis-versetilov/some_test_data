@@ -1,5 +1,5 @@
 {
-    "modelName": "New Model",
+    "modelName": "Deleted Model",
     "collections": [
         {
             "collectionName": "New Collection",
@@ -43,6 +43,7 @@
             "name": "New_Database",
             "type": "bucket",
             "collectionIds": [
+                "8ebfde00-e586-11ec-b2ad-2d11faaf163a",
                 "8ebfde00-e586-11ec-b2ad-2d11faaf163a"
             ],
             "backgroundColor": {
@@ -68,35 +69,25 @@
     "definitions": {
         "type": "definitions",
         "properties": [],
-        "GUID": "8d4a5501-e586-11ec-b2ad-2d11faaf163a"
+        "GUID": "2ee4f871-ed7f-11ec-8c20-db2c4edfb151"
     },
     "polyglotDefinitions": {
         "type": "polyglotDefinitions",
         "properties": [],
-        "GUID": "8d4a5503-e586-11ec-b2ad-2d11faaf163a"
+        "GUID": "2ee51f80-ed7f-11ec-8c20-db2c4edfb151"
     },
     "externalDefinitions": {
         "type": "externalDefinitions",
         "properties": [],
-        "GUID": "8d4a5502-e586-11ec-b2ad-2d11faaf163a"
+        "GUID": "2ee4f872-ed7f-11ec-8c20-db2c4edfb151"
     },
     "sources": [],
     "decorativeSymbols": [],
     "dbVersion": "v5.0",
     "dbVendor": "MongoDB",
     "appTarget": "MONGODB",
-    "creationTS": "2022-06-06T10:51:00.047Z",
+    "creationTS": "2022-06-16T14:18:24.503Z",
     "GUID": "8d4a5500-e586-11ec-b2ad-2d11faaf163a",
-    "isLineageEnabled": false,
-    "lastModifTS": "2022-06-06T10:51:12.170Z",
-    "persistenceSchemaVersion": "6",
-    "isCreatedByPlugin": true,
-    "pluginInformation": {
-        "pluginEngineVersion": "1.0.0"
-    },
-    "applicationInformation": {
-        "version": "6.1.2"
-    },
     "settings": {
         "centralPane": {
             "dbLevel": {
@@ -117,25 +108,13 @@
                         "GUID": "8e1fa660-e586-11ec-b2ad-2d11faaf163a"
                     }
                 ],
-                "collapsedNodes": [],
-                "activeRelationship": "",
-                "activeRelationshipFields": {
-                    "childField": [],
-                    "parentField": []
-                },
-                "selectedCollections": [],
-                "displayColorPicker": false,
+                "diagramViews": [],
+                "decorativeSymbols": [],
                 "graphView": {
                     "erd": [],
                     "buckets": [],
-                    "decorativeSymbols": [],
-                    "forceLayout": true,
-                    "defaultLinkLength": 300
-                },
-                "diagramViews": [],
-                "decorativeSymbols": [],
-                "nestedCollectionsLayout": "horizontal",
-                "options": []
+                    "decorativeSymbols": []
+                }
             },
             "collectionLevel": {},
             "changed": false
@@ -144,5 +123,14 @@
             "collapsedNodes": [],
             "shouldDistributeCollections": false
         }
+    },
+    "lastModifTS": "2022-06-16T14:18:36.891Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.1.3"
     }
 }
