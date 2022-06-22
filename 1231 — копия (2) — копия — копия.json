@@ -1,71 +1,12 @@
 {
     "modelName": "Deleted Model",
-    "collections": [
-        {
-            "collectionName": "New Collection",
-            "type": "object",
-            "properties": [
-                {
-                    "name": "New Field",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "type": "string",
-                    "GUID": "903f2b00-e586-11ec-b2ad-2d11faaf163a",
-                    "error": {
-                        "name": false,
-                        "code": false
-                    }
-                }
-            ],
-            "definitions": {
-                "type": "definitions",
-                "properties": [],
-                "GUID": "8ec423c0-e586-11ec-b2ad-2d11faaf163a"
-            },
-            "isActivated": true,
-            "additionalProperties": false,
-            "validationLevel": "Off",
-            "validationAction": "Warn",
-            "storageEngineName": "WiredTiger",
-            "collectionUsers": [],
-            "indexes": [],
-            "collation": {},
-            "sharding": {
-                "unique": true,
-                "collation": "null"
-            },
-            "GUID": "8ebfde00-e586-11ec-b2ad-2d11faaf163a",
-            "bucketId": "8e1fa660-e586-11ec-b2ad-2d11faaf163a"
-        }
-    ],
-    "buckets": [
-        {
-            "name": "New_Database",
-            "type": "bucket",
-            "collectionIds": [
-                "8ebfde00-e586-11ec-b2ad-2d11faaf163a",
-                "8ebfde00-e586-11ec-b2ad-2d11faaf163a"
-            ],
-            "backgroundColor": {
-                "r": 187,
-                "g": 187,
-                "b": 187,
-                "a": 1
-            },
-            "show": true,
-            "isActivated": true,
-            "GUID": "8e1fa660-e586-11ec-b2ad-2d11faaf163a"
-        }
-    ],
+    "collections": [],
+    "buckets": [],
     "views": [],
     "relationships": [],
     "users": [],
     "diagramViews": [],
-    "idToNameHashTable": {
-        "8e1fa660-e586-11ec-b2ad-2d11faaf163a": "New_Database",
-        "8ebfde00-e586-11ec-b2ad-2d11faaf163a": "New Collection",
-        "903f2b00-e586-11ec-b2ad-2d11faaf163a": "New Field"
-    },
+    "idToNameHashTable": {},
     "definitions": {
         "type": "definitions",
         "properties": [],
@@ -88,33 +29,40 @@
     "appTarget": "MONGODB",
     "creationTS": "2022-06-16T14:18:24.503Z",
     "GUID": "8d4a5500-e586-11ec-b2ad-2d11faaf163a",
+    "lastModifTS": "2022-06-22T10:54:49.064Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.2.0"
+    },
+    "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
-                "erd": [
-                    {
-                        "GUID": "8ebfde00-e586-11ec-b2ad-2d11faaf163a",
-                        "x": 440,
-                        "y": 341,
-                        "width": 206,
-                        "height": 51,
-                        "color": {}
-                    }
-                ],
-                "buckets": [
-                    {
-                        "x": 400,
-                        "y": 304,
-                        "GUID": "8e1fa660-e586-11ec-b2ad-2d11faaf163a"
-                    }
-                ],
-                "diagramViews": [],
-                "decorativeSymbols": [],
+                "erd": [],
+                "buckets": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
                 "graphView": {
                     "erd": [],
                     "buckets": [],
-                    "decorativeSymbols": []
-                }
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": []
             },
             "collectionLevel": {},
             "changed": false
@@ -123,14 +71,5 @@
             "collapsedNodes": [],
             "shouldDistributeCollections": false
         }
-    },
-    "lastModifTS": "2022-06-16T14:18:36.891Z",
-    "persistenceSchemaVersion": "6",
-    "isCreatedByPlugin": true,
-    "pluginInformation": {
-        "pluginEngineVersion": "1.0.0"
-    },
-    "applicationInformation": {
-        "version": "6.1.3"
     }
 }
