@@ -1,62 +1,11 @@
 {
     "modelName": "Deleted Model",
-    "collections": [
-        {
-            "collectionName": "New Collection",
-            "type": "object",
-            "properties": [
-                {
-                    "name": "New Field",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "type": "string",
-                    "GUID": "903f2b00-e586-11ec-b2ad-2d11faaf163a",
-                    "error": {
-                        "name": false,
-                        "code": false
-                    }
-                },
-                {
-                    "name": "New Field(1)",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "type": "string",
-                    "GUID": "b15b5620-f219-11ec-a411-3bdcfcdca227",
-                    "error": {
-                        "name": false,
-                        "code": false
-                    },
-                    "foreignCollection": "",
-                    "foreignField": []
-                }
-            ],
-            "definitions": {
-                "type": "definitions",
-                "properties": [],
-                "GUID": "8ec423c0-e586-11ec-b2ad-2d11faaf163a"
-            },
-            "isActivated": true,
-            "additionalProperties": false,
-            "validationLevel": "Off",
-            "validationAction": "Warn",
-            "storageEngineName": "WiredTiger",
-            "collectionUsers": [],
-            "indexes": [],
-            "collation": {},
-            "sharding": {
-                "unique": true,
-                "collation": "null"
-            },
-            "GUID": "8ebfde00-e586-11ec-b2ad-2d11faaf163a",
-            "bucketId": "8e1fa660-e586-11ec-b2ad-2d11faaf163a"
-        }
-    ],
+    "collections": [],
     "buckets": [
         {
             "name": "New_Database",
             "type": "bucket",
             "collectionIds": [
-                "8ebfde00-e586-11ec-b2ad-2d11faaf163a",
                 "8ebfde00-e586-11ec-b2ad-2d11faaf163a"
             ],
             "backgroundColor": {
@@ -75,10 +24,7 @@
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "8e1fa660-e586-11ec-b2ad-2d11faaf163a": "New_Database",
-        "8ebfde00-e586-11ec-b2ad-2d11faaf163a": "New Collection",
-        "903f2b00-e586-11ec-b2ad-2d11faaf163a": "New Field",
-        "b15b5620-f219-11ec-a411-3bdcfcdca227": "New Field(1)"
+        "8e1fa660-e586-11ec-b2ad-2d11faaf163a": "New_Database"
     },
     "definitions": {
         "type": "definitions",
@@ -102,29 +48,20 @@
     "appTarget": "MONGODB",
     "creationTS": "2022-06-16T14:18:24.503Z",
     "GUID": "8d4a5500-e586-11ec-b2ad-2d11faaf163a",
-    "lastModifTS": "2022-06-22T10:55:04.167Z",
+    "lastModifTS": "2022-07-18T11:19:26.413Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.2.0"
+        "version": "6.2.3"
     },
     "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
-                "erd": [
-                    {
-                        "GUID": "8ebfde00-e586-11ec-b2ad-2d11faaf163a",
-                        "x": 440,
-                        "y": 341,
-                        "width": 206,
-                        "height": 69,
-                        "color": {}
-                    }
-                ],
+                "erd": [],
                 "buckets": [
                     {
                         "x": 400,
