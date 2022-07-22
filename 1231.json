@@ -6,15 +6,12 @@
             "type": "object",
             "properties": [
                 {
-                    "name": "New Field",
+                    "name": "1252521",
                     "hackoladeMeta": {},
                     "isActivated": true,
                     "type": "string",
                     "GUID": "903f2b00-e586-11ec-b2ad-2d11faaf163a",
-                    "error": {
-                        "name": false,
-                        "code": false
-                    }
+                    "error": {}
                 }
             ],
             "definitions": {
@@ -63,7 +60,7 @@
     "idToNameHashTable": {
         "8e1fa660-e586-11ec-b2ad-2d11faaf163a": "New_Database",
         "8ebfde00-e586-11ec-b2ad-2d11faaf163a": "New Collection",
-        "903f2b00-e586-11ec-b2ad-2d11faaf163a": "New Field"
+        "903f2b00-e586-11ec-b2ad-2d11faaf163a": "1252521"
     },
     "definitions": {
         "type": "definitions",
@@ -88,15 +85,16 @@
     "creationTS": "2022-06-06T10:51:00.047Z",
     "GUID": "8d4a5500-e586-11ec-b2ad-2d11faaf163a",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-06-06T10:51:12.170Z",
+    "lastModifTS": "2022-07-22T07:27:30.726Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.1.2"
+        "version": "6.2.4"
     },
+    "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
@@ -113,7 +111,7 @@
                 "buckets": [
                     {
                         "x": 400,
-                        "y": 304,
+                        "y": 301,
                         "GUID": "8e1fa660-e586-11ec-b2ad-2d11faaf163a"
                     }
                 ],
