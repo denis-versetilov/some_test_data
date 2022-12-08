@@ -8,7 +8,11 @@
             "definitions": {
                 "type": "definitions",
                 "properties": [],
+<<<<<<< HEAD
+                "GUID": "f9185550-d697-11ec-99e6-19e970ac2dfa"
+=======
                 "GUID": "0fe259f0-e58b-11ec-b2ad-2d11faaf163a"
+>>>>>>> origin/NEW_TEZZ
             },
             "isActivated": true,
             "additionalProperties": false,
@@ -22,6 +26,12 @@
                 "unique": true,
                 "collation": "null"
             },
+<<<<<<< HEAD
+            "GUID": "f9145db0-d697-11ec-99e6-19e970ac2dfa"
+        }
+    ],
+    "buckets": [],
+=======
             "GUID": "0fdd9f00-e58b-11ec-b2ad-2d11faaf163a",
             "bucketId": "01631610-d688-11ec-b108-e15639c2584f"
         }
@@ -44,6 +54,7 @@
             "GUID": "01631610-d688-11ec-b108-e15639c2584f"
         }
     ],
+>>>>>>> origin/NEW_TEZZ
     "views": [],
     "relationships": [
         {
@@ -53,62 +64,104 @@
             "parentCardinality": "1",
             "childField": [],
             "childCardinality": "1",
+<<<<<<< HEAD
+            "GUID": "f87b2af0-d697-11ec-99e6-19e970ac2dfa"
+=======
             "GUID": "00a607a0-d688-11ec-b108-e15639c2584f"
+>>>>>>> origin/NEW_TEZZ
         }
     ],
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
+<<<<<<< HEAD
+        "f87b2af0-d697-11ec-99e6-19e970ac2dfa": "New Relationship",
+        "f9145db0-d697-11ec-99e6-19e970ac2dfa": "New Collection"
+=======
         "00a607a0-d688-11ec-b108-e15639c2584f": "New Relationship",
         "01631610-d688-11ec-b108-e15639c2584f": "New_Database",
         "0fdd9f00-e58b-11ec-b2ad-2d11faaf163a": "New Collection"
+>>>>>>> origin/NEW_TEZZ
     },
     "definitions": {
         "type": "definitions",
         "properties": [],
+<<<<<<< HEAD
+        "GUID": "f7e357c1-d697-11ec-99e6-19e970ac2dfa"
+=======
         "GUID": "ff986831-d687-11ec-b108-e15639c2584f"
+>>>>>>> origin/NEW_TEZZ
     },
     "polyglotDefinitions": {
         "type": "polyglotDefinitions",
         "properties": [],
+<<<<<<< HEAD
+        "GUID": "f7e357c3-d697-11ec-99e6-19e970ac2dfa"
+=======
         "GUID": "ff986833-d687-11ec-b108-e15639c2584f"
+>>>>>>> origin/NEW_TEZZ
     },
     "externalDefinitions": {
         "type": "externalDefinitions",
         "properties": [],
+<<<<<<< HEAD
+        "GUID": "f7e357c2-d697-11ec-99e6-19e970ac2dfa"
+=======
         "GUID": "ff986832-d687-11ec-b108-e15639c2584f"
+>>>>>>> origin/NEW_TEZZ
     },
     "sources": [],
     "decorativeSymbols": [],
     "dbVersion": "v5.0",
     "dbVendor": "MongoDB",
     "appTarget": "MONGODB",
+<<<<<<< HEAD
+    "creationTS": "2022-05-18T10:47:52.891Z",
+    "GUID": "f7e357c0-d697-11ec-99e6-19e970ac2dfa",
+    "isLineageEnabled": false,
+    "lastModifTS": "2022-05-18T10:47:55.335Z",
+=======
     "creationTS": "2022-05-18T08:53:33.874Z",
     "GUID": "ff986830-d687-11ec-b108-e15639c2584f",
     "isLineageEnabled": false,
     "lastModifTS": "2022-06-06T11:23:17.914Z",
+>>>>>>> origin/NEW_TEZZ
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
+<<<<<<< HEAD
+        "version": "6.0.8"
+    },
+=======
         "version": "6.1.2"
     },
     "hackoladeMeta": {},
+>>>>>>> origin/NEW_TEZZ
     "settings": {
         "centralPane": {
             "dbLevel": {
                 "erd": [
                     {
+<<<<<<< HEAD
+                        "GUID": "f9145db0-d697-11ec-99e6-19e970ac2dfa",
+                        "x": 375,
+                        "y": 455,
+=======
                         "GUID": "0fdd9f00-e58b-11ec-b2ad-2d11faaf163a",
                         "x": 288,
                         "y": 334,
+>>>>>>> origin/NEW_TEZZ
                         "width": 240,
                         "height": 100,
                         "color": {}
                     }
                 ],
+<<<<<<< HEAD
+                "buckets": [],
+=======
                 "buckets": [
                     {
                         "x": 199,
@@ -116,6 +169,7 @@
                         "GUID": "01631610-d688-11ec-b108-e15639c2584f"
                     }
                 ],
+>>>>>>> origin/NEW_TEZZ
                 "collapsedNodes": [],
                 "activeRelationship": "",
                 "activeRelationshipFields": {

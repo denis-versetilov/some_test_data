@@ -1,24 +1,26 @@
 {
     "modelName": "New Model",
     "collections": [
-<<<<<<< HEAD
         {
             "collectionName": "New Collection",
             "type": "object",
-            "properties": [],
+            "properties": [
+                {
+                    "name": "New Field",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "ed60d4c0-d77e-11ec-8a2b-cb93569e91cb",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                }
+            ],
             "definitions": {
                 "type": "definitions",
                 "properties": [],
-                "GUID": "f9185550-d697-11ec-99e6-19e970ac2dfa"
-=======
-        {
-            "collectionName": "New Collection",
-            "type": "object",
-            "properties": [],
-            "definitions": {
-                "type": "definitions",
-                "properties": [],
-                "GUID": "0fe259f0-e58b-11ec-b2ad-2d11faaf163a"
+                "GUID": "ec3a0800-d77e-11ec-8a2b-cb93569e91cb"
             },
             "isActivated": true,
             "additionalProperties": false,
@@ -32,40 +34,42 @@
                 "unique": true,
                 "collation": "null"
             },
-            "GUID": "0fdd9f00-e58b-11ec-b2ad-2d11faaf163a",
-            "bucketId": "01631610-d688-11ec-b108-e15639c2584f"
+            "GUID": "ec357420-d77e-11ec-8a2b-cb93569e91cb",
+            "bucketId": "ebc91dc0-d77e-11ec-8a2b-cb93569e91cb"
         }
     ],
     "buckets": [
         {
             "name": "New_Database",
             "type": "bucket",
-            "collectionIds": [
-                "0fdd9f00-e58b-11ec-b2ad-2d11faaf163a"
-            ],
+            "collectionIds": [],
             "backgroundColor": {
                 "r": 187,
                 "g": 187,
                 "b": 187,
                 "a": 1
->>>>>>> origin/NEW_TEZZ
             },
+            "show": true,
             "isActivated": true,
-            "additionalProperties": false,
-            "validationLevel": "Off",
-            "validationAction": "Warn",
-            "storageEngineName": "WiredTiger",
-            "collectionUsers": [],
-            "indexes": [],
-            "collation": {},
-            "sharding": {
-                "unique": true,
-                "collation": "null"
+            "GUID": "eac03940-d77e-11ec-8a2b-cb93569e91cb"
+        },
+        {
+            "name": "New_Database(1)",
+            "type": "bucket",
+            "collectionIds": [
+                "ec357420-d77e-11ec-8a2b-cb93569e91cb"
+            ],
+            "backgroundColor": {
+                "r": 119,
+                "g": 119,
+                "b": 119,
+                "a": 1
             },
-            "GUID": "f9145db0-d697-11ec-99e6-19e970ac2dfa"
+            "show": true,
+            "isActivated": true,
+            "GUID": "ebc91dc0-d77e-11ec-8a2b-cb93569e91cb"
         }
     ],
-    "buckets": [],
     "views": [],
     "relationships": [
         {
@@ -75,85 +79,75 @@
             "parentCardinality": "1",
             "childField": [],
             "childCardinality": "1",
-            "GUID": "f87b2af0-d697-11ec-99e6-19e970ac2dfa"
+            "GUID": "eb3d7f90-d77e-11ec-8a2b-cb93569e91cb"
         }
     ],
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-<<<<<<< HEAD
-        "f87b2af0-d697-11ec-99e6-19e970ac2dfa": "New Relationship",
-        "f9145db0-d697-11ec-99e6-19e970ac2dfa": "New Collection"
-=======
-        "00a607a0-d688-11ec-b108-e15639c2584f": "New Relationship",
-        "01631610-d688-11ec-b108-e15639c2584f": "New_Database",
-        "0fdd9f00-e58b-11ec-b2ad-2d11faaf163a": "New Collection"
->>>>>>> origin/NEW_TEZZ
+        "eac03940-d77e-11ec-8a2b-cb93569e91cb": "New_Database",
+        "eb3d7f90-d77e-11ec-8a2b-cb93569e91cb": "New Relationship",
+        "ebc91dc0-d77e-11ec-8a2b-cb93569e91cb": "New_Database(1)",
+        "ec357420-d77e-11ec-8a2b-cb93569e91cb": "New Collection",
+        "ed60d4c0-d77e-11ec-8a2b-cb93569e91cb": "New Field"
     },
     "definitions": {
         "type": "definitions",
         "properties": [],
-        "GUID": "f7e357c1-d697-11ec-99e6-19e970ac2dfa"
+        "GUID": "e9f6cec1-d77e-11ec-8a2b-cb93569e91cb"
     },
     "polyglotDefinitions": {
         "type": "polyglotDefinitions",
         "properties": [],
-        "GUID": "f7e357c3-d697-11ec-99e6-19e970ac2dfa"
+        "GUID": "e9f6cec3-d77e-11ec-8a2b-cb93569e91cb"
     },
     "externalDefinitions": {
         "type": "externalDefinitions",
         "properties": [],
-        "GUID": "f7e357c2-d697-11ec-99e6-19e970ac2dfa"
+        "GUID": "e9f6cec2-d77e-11ec-8a2b-cb93569e91cb"
     },
     "sources": [],
     "decorativeSymbols": [],
     "dbVersion": "v5.0",
     "dbVendor": "MongoDB",
     "appTarget": "MONGODB",
-    "creationTS": "2022-05-18T10:47:52.891Z",
-    "GUID": "f7e357c0-d697-11ec-99e6-19e970ac2dfa",
+    "creationTS": "2022-05-19T14:21:03.275Z",
+    "GUID": "e9f6cec0-d77e-11ec-8a2b-cb93569e91cb",
     "isLineageEnabled": false,
-<<<<<<< HEAD
-    "lastModifTS": "2022-05-18T10:47:55.335Z",
-=======
-    "lastModifTS": "2022-06-06T11:23:17.914Z",
->>>>>>> origin/NEW_TEZZ
+    "lastModifTS": "2022-05-19T14:21:10.118Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.1.2"
+        "version": "6.0.8"
     },
-    "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
                 "erd": [
-<<<<<<< HEAD
-=======
                     {
-                        "GUID": "0fdd9f00-e58b-11ec-b2ad-2d11faaf163a",
-                        "x": 288,
-                        "y": 334,
-                        "width": 240,
-                        "height": 100,
+                        "GUID": "ec357420-d77e-11ec-8a2b-cb93569e91cb",
+                        "x": 390,
+                        "y": 343,
+                        "width": 206,
+                        "height": 51,
                         "color": {}
                     }
                 ],
                 "buckets": [
->>>>>>> origin/NEW_TEZZ
                     {
-                        "GUID": "f9145db0-d697-11ec-99e6-19e970ac2dfa",
-                        "x": 375,
-                        "y": 455,
-                        "width": 240,
-                        "height": 100,
-                        "color": {}
+                        "x": 105,
+                        "y": 231,
+                        "GUID": "eac03940-d77e-11ec-8a2b-cb93569e91cb"
+                    },
+                    {
+                        "x": 354,
+                        "y": 318,
+                        "GUID": "ebc91dc0-d77e-11ec-8a2b-cb93569e91cb"
                     }
                 ],
-                "buckets": [],
                 "collapsedNodes": [],
                 "activeRelationship": "",
                 "activeRelationshipFields": {
